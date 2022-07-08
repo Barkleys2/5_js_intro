@@ -73,8 +73,8 @@ console.log(x);
 
 console.clear();
 
- let t = 2;
- console.log(t);
+let t = 2;
+console.log(t);
 
 t = t * 2;
 console.log(t);
@@ -106,4 +106,143 @@ console.log(t);
 t = t * 2;
 console.log(t);
 
+console.clear();
 
+console.log('-----------------------------------------');
+
+console.log('Liekana');
+const liekana = a % b;
+console.log(a, b, a % b, liekana);
+
+console.log(5, 2, 5 % 2);
+console.log(10, 2, 10 % 2);
+console.log(10, 3, 10 % 3);
+console.log(10, 4, 10 % 4);
+console.log(10, 5, 10 % 5);
+console.log(10, 6, 10 % 6);
+console.log(10, 7, 10 % 7);
+console.log(10, 8, 10 % 8);
+console.log(10, 9, 10 % 9);
+console.log(10, 10, 10 % 10);
+
+console.log('Kelimas laipsniu');
+const laipsnis = a ** b;
+console.log(a, b, a ** b, laipsnis);
+console.log(5, 2, 5 ** 2);
+console.log(3, 2, 3 ** 2);
+console.log(3, 2, 3 ** 2);
+
+console.log('-------');
+console.log(2, 0, 2 ** 0);
+console.log(2, 1, 2 ** 1);
+console.log(2, 2, 2 ** 2);
+console.log(2, 3, 2 ** 3);
+console.log(2, 4, 2 ** 4);
+console.log(2, 5, 2 ** 5);
+console.log(2, 6, 2 ** 6);
+console.log(2, 7, 2 ** 7);
+console.log(2, 8, 2 ** 8);
+console.log(2, 9, 2 ** 9);
+console.log(2, 10, 2 ** 10);
+
+console.clear();
+
+let i = 1024;
+console.log(i);
+
+i = i * 2;
+console.log(i);
+
+i = i * 2;
+console.log(i);
+
+i = i * 2;
+console.log(i);
+
+i = i * 2;
+console.log(i);
+
+i = i * 2;
+console.log(i);
+
+console.log(10 / 0);
+console.log(-10 / 0);
+console.log(3.14 / 0);
+console.log(-3.14 / 0);
+console.log(Infinity / 0);
+console.log(-Infinity / 0);
+
+console.log(5845 / Infinity);
+console.log(-5845 / Infinity);
+console.log(-5845 / -Infinity);
+
+console.log('Nesamones: NaN');
+console.log(0 / 0);
+console.log(-0 / 0);
+
+console.log(Infinity / Infinity);
+console.log(-Infinity / Infinity);
+
+console.clear();
+
+let silence = 1;
+console.log(silence);
+silence += 4;
+console.log('+= 4 ->', silence);
+silence *= 6;
+console.log('*= 6 ->', silence);
+silence -= 10;
+console.log('-= 10 ->', silence);
+silence /= 4;
+console.log('/= 4 ->', silence);
+silence %= 3;
+console.log('%= 3 ->', silence);
+silence **= 3;
+console.log('**= 3 ->', silence);
+
+let k = 1;
+k = k + 1;
+console.log(k);
+k += 1;
+console.log(k);
+k++;
+console.log(k);
+++k;
+console.log(k);
+k++;
+console.log(k);
+++k;
+console.log(k);
+
+let j = 1;
+j = j - 1;
+console.log(j);
+j -= 1;
+console.log(j);
+j--;
+console.log(j);
+--j;
+console.log(j);
+j--;
+console.log(j);
+--j;
+console.log(j);
+
+console.clear();
+let m = 0;
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m);
+
+let n = 100;
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(n);

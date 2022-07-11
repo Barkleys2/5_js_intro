@@ -1,14 +1,12 @@
 console.clear();
 /*
 BOOLEAN
-
 logines reiksmes
-
 true
 false
 */
 
-const teigiamas = ture;
+const teigiamas = true;
 const neigiamas = false;
 
 console.log(teigiamas);

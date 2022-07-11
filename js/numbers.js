@@ -1,116 +1,84 @@
 console.clear();
 /*
 NUMBERS
-
 normalus:
     - sveikieji
     - desimtainiai
     - teigiami / neigiami
 ne normalus:
-    - Infinity
+    - Infinity / -Infinity
     - NaN (not-a-number)
-
-Kintamuju inicijavimas:
-- const: reiksme nagili buti pakeista (default)
-- let: leidziam keisti reiksmes
+Kintamuju iniciavimas:
+- const: reiksme negali buti pakeista (default)
+- let: leidziam keisti reiksme
 - var: nenaudoti, jei nenori problemu
-
 */
 
+const metai = 202200000;
+console.log(metai);
 
-const metai = 20220002;
+let PI = 3.1415;
+console.log(PI);
 
-const PI = 3.14;
+const minus = -77;
+console.log(minus);
 
-const minus = -77
-
-const minusDec = -77.77
+const minusDec = -77.77;
+console.log(minusDec);
 
 console.log(metai);
-console.log(2022);
 console.log(PI);
 console.log(minus);
 console.log(minusDec);
+console.log(metai);
+console.log(PI);
+console.log(minus);
 
-console.log('--------------------------------');
+console.log('----------------');
 
 let pinigine = 0;
-console.log('Pinigine', pinigine);
+console.log('Pinigine:', pinigine);
 
 pinigine = 5;
-console.log('Pinigine', pinigine);
+console.log('Pinigine:', pinigine);
 
-pinigine = 20;
-console.log('Pinigine', pinigine);
+pinigine = 7;
+console.log('Pinigine:', pinigine);
 
-console.log('---------------------------------');
+pinigine = 3;
+console.log('Pinigine:', pinigine);
+
+pinigine = -333;
+console.log('Pinigine:', pinigine);
+
+console.log('------------------');
 
 const teigiamaBegalybe = Infinity;
 console.log(teigiamaBegalybe);
 
-const neigiamaBegalybe =  -Infinity;
+const neigiamaBegalybe = -Infinity;
 console.log(neigiamaBegalybe);
 
 const a = 7;
 const b = 5;
-const c = 37
-const d = 4
 
-const suma = (a + b) * c / d;
-console.log(a, b, c, d, suma);
+console.log('suma');
+const suma = a + b;
+console.log(a, b, a + b, suma);
 
+console.log('skirtumas');
 const skirtumas = a - b;
-console.log(skirtumas);
+console.log(a, b, a - b, skirtumas);
 
+console.log('sandauga');
 const sandauga = a * b;
-console.log(sandauga);
+console.log(a, b, a * b, sandauga);
 
+console.log('dalmuo');
 const dalmuo = a / b;
-console.log(dalmuo);
+console.log(a, b, a / b, dalmuo);
 
-const x = a % b;
-console.log(x);
-
-console.clear();
-
-let t = 2;
-console.log(t);
-
-t = t * 2;
-console.log(t);
-
-t = t + 2;
-console.log(t);
-
-t = t - 2;
-console.log(t);
-
-t = t * 2;
-console.log(t);
-
-t = t * 2;
-console.log(t);
-
-t = t / 2;
-console.log(t);
-
-t = t * 2;
-console.log(t);
-
-t = t / 2;
-console.log(t);
-
-t = t / 2;
-console.log(t);
-
-t = t * 2;
-console.log(t);
-
-console.clear();
-
-console.log('-----------------------------------------');
-
-console.log('Liekana');
+console.log('liekana');
 const liekana = a % b;
 console.log(a, b, a % b, liekana);
 
@@ -125,7 +93,7 @@ console.log(10, 8, 10 % 8);
 console.log(10, 9, 10 % 9);
 console.log(10, 10, 10 % 10);
 
-console.log('Kelimas laipsniu');
+console.log('kelimas laipsniu');
 const laipsnis = a ** b;
 console.log(a, b, a ** b, laipsnis);
 console.log(5, 2, 5 ** 2);
@@ -147,23 +115,23 @@ console.log(2, 10, 2 ** 10);
 
 console.clear();
 
-let i = 1024;
-console.log(i);
+let t = 1024;
+console.log(t);
 
-i = i * 2;
-console.log(i);
+t = t * 2;
+console.log(t);
 
-i = i * 2;
-console.log(i);
+t = t * 2;
+console.log(t);
 
-i = i * 2;
-console.log(i);
+t = t * 2;
+console.log(t);
 
-i = i * 2;
-console.log(i);
+t = t * 2;
+console.log(t);
 
-i = i * 2;
-console.log(i);
+t = t * 2;
+console.log(t);
 
 console.log(10 / 0);
 console.log(-10 / 0);
@@ -185,34 +153,34 @@ console.log(-Infinity / Infinity);
 
 console.clear();
 
-let silence = 1;
-console.log(silence);
-silence += 4;
-console.log('+= 4 ->', silence);
-silence *= 6;
-console.log('*= 6 ->', silence);
-silence -= 10;
-console.log('-= 10 ->', silence);
-silence /= 4;
-console.log('/= 4 ->', silence);
-silence %= 3;
-console.log('%= 3 ->', silence);
-silence **= 3;
-console.log('**= 3 ->', silence);
+let silense = 1;
+console.log(silense);
+silense += 4;
+console.log('+= 4 ->', silense);
+silense *= 6;
+console.log('*= 6 ->', silense);
+silense -= 10;
+console.log('-= 10 ->', silense);
+silense /= 4;
+console.log('/= 4 ->', silense);
+silense %= 3;
+console.log('%= 3 ->', silense);
+silense **= 3;
+console.log('**= 3 ->', silense);
 
-let k = 1;
-k = k + 1;
-console.log(k);
-k += 1;
-console.log(k);
-k++;
-console.log(k);
-++k;
-console.log(k);
-k++;
-console.log(k);
-++k;
-console.log(k);
+let i = 1;
+i = i + 1;
+console.log(i);
+i += 1;
+console.log(i);
+i++;
+console.log(i);
+++i;
+console.log(i);
+i++;
+console.log(i);
+++i;
+console.log(i);
 
 let j = 1;
 j = j - 1;

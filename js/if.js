@@ -2,23 +2,17 @@ console.clear();
 
 /*
 IF - reiksmiu palyginimas
-
 palyginimo operatoriai:
 visi: >, <, <=, >=, ==, !=, ===, !==
 naudotini: >, <, <=, >=, ===, !==
-nenaudotini: ==, !=,
-
-!= - yra ne;
-!== - griezta lygybe arba neligybe;
-=== - grieztai;
-
-šablonai:
-if () {};
-if () {} else {};
-if () {} else if {}  . . . else if {};
-if () {} else if {}  . . . else if {} . . . else if {};
+nenaudotini: ==, !=
+sablonai:
+if () {}
+if () {} else {}
+if () {} else if {} ... else if {}
+if () {} else if {} ... else if {} else {}
 */
-const labas = 5;
+
 const a = '5';
 const b = 5;
 
@@ -28,12 +22,10 @@ if (a === b) {
     console.log('A nelygu B');
 }
 
+const eyeColor = 'raudona';
 
-const eyeColor = 'rud';
-
-
-if(eyeColor === 'zalia'){
-    console.log('Žaliakis');
+if (eyeColor === 'zalia') {
+    console.log('Zaliaakis');
 } else if (eyeColor === 'melyna') {
     console.log('Melynakis');
 } else if (eyeColor === 'ruda') {
@@ -42,35 +34,38 @@ if(eyeColor === 'zalia'){
     console.log('Nezinoma akiu spalva');
 }
 
-if ('aaa' === 'aaa') {
+if ('aaa' === 'Aaa') {
     console.log(true);
 } else {
     console.log(false);
 }
 
-const day = 7
+const day = 8;
 
+// kodo nestinimas
 if (day === 1) {
-    console.log('Pirmadienis');
+    console.log('pirmadienis');
 } else {
     if (day === 2) {
-        console.log('Antradienis');
+        console.log('antradienis');
     } else {
         if (day === 3) {
-            console.log('Trečiadienis');
+            console.log('treciadienis');
         } else {
             if (day === 4) {
-                console.log('Ketvirtadienis');
+                console.log('ketvirtadienis');
             } else {
                 if (day === 5) {
-                    console.log('Penktadienis');
+                    console.log('penktadienis');
                 } else {
                     if (day === 6) {
-                        console.log('Šeštadienis');
+                        console.log('sestadienis');
                     } else {
                         if (day === 7) {
-                            console.log('Sekmadienis');
-                        } 
+                            console.log('sekmadienis');
+                        } else {
+                            console.log('Tokia diena savaiteje neegzistuoja');
+                        }
                     }
                 }
             }
@@ -78,11 +73,10 @@ if (day === 1) {
     }
 }
 
-console.clear();
 
-const nuoKadaSilta = 24;
-const dabartineTemp = 25;
-const yraKrituliai = true;
+const nuoKadaSilta = 20;
+const dabartineTemp = 39;
+const yraKrituliai = false;
 
 if (yraKrituliai) {
     if (dabartineTemp > nuoKadaSilta) {
@@ -97,6 +91,3 @@ if (yraKrituliai) {
         console.log('Degtine');
     }
 }
-
-console.clear();
-

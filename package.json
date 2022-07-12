@@ -8,6 +8,7 @@
     "array": "nodemon ./js/array.js",
     "arrow": "nodemon ./js/arrow.js",
     "boolean": "nodemon ./js/boolean.js",
+    "class": "nodemon ./js/Class.js",
     "for": "nodemon ./js/for.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
